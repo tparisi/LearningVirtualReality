@@ -1,0 +1,53 @@
+/*
+ * Localizable.strings
+ *
+ * Guidelines:
+ *
+ * 1/ Write keys as CamelCase. In the code, this will be prefixed with kStr: kStrThisIsAKey.
+ *
+ * 2/ For descriptions, use 100-column limit and align multiple lines on the first character.
+ *    For strings, do not break lines.
+ *
+ * 3/ Write a meaningful description, so the translator can know what exactly you are talking about.
+ *
+ * 4/ Without context, a single word is hard to translate. For instance, the word "search" can be a
+ *    noun or a verb and they have different translations in other languages. Add the grammar
+ *    class, the verb tense or any other information to distinguish between homonyms.
+ *
+ * 5/ Supply the maximum number of characters for strings in the comment. For example:
+ *   /# Button label which starts warp (i.e. faster than light travel) mode. (30 chars) #/
+ *   "WarpModeButtonLabel" = "Warp Speed";
+ *
+ * 6/ For accessibility items, include "ACCESSIBILITY" in the key and comments. Generally
+ *    accessibility strings do not have a limit, because they are spoken. Indicate this with (no
+ *    limit).
+ */
+
+// ====================================
+// Strings on QR code scanning screen
+// ====================================
+
+/*
+ * TODO(bwuest): All of these string lengths, descriptions, and content should be reviewed
+ * in a seperate CL.
+ */
+
+/* Back button label used to go back to the previous screen. (15 chars) */
+"BackButtonLabel" = "Back";
+/* Label of the app title bar when on the QR code scanner screen. (45 chars) */
+"NavTitleLabel" = "QR Scan";
+/* Message shown to the user while waiting to process the QR code. (60 chars) */
+"LoadingMessag" = "Parsing configuration data";
+/* Error message shown to the user if the QR code is invalid. (60 chars) */
+"InvalidQRCode" = "The QR code is invalid";
+/* Error message shown to the user if the QR code is not a valid device profile. (60 chars) */
+"ParsingFailed" = "Problem in parsing the Url";
+/* Format string used as a temporary message shown after a successful device profile is set.
+ * (60 chars) */
+"DataSynced" = "%1$@ detected";
+/* Label shown next to example QR code. (40 chars) */
+"FindSymbolOnViewer" = "Find this symbol on your viewer";
+/* Label shown next to skip button that allows the user to skip the QR code step. (40 chars) */
+"CanNotFindSymbol" = "Can't find this symbol?";
+/* Button label for the control that allows the user to skip the QR code step. (40 chars) */
+"SkipButtonLabel" = "SKIP";
