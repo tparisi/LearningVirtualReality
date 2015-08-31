@@ -1,5 +1,5 @@
 # LearningVirtualReality
-Sample Code from My New Book, Learning Virtual Reality
+Sample Code from My New Book, [Learning Virtual Reality](http://www.amazon.com/Learning-Virtual-Reality-Experiences-Applications/dp/1491922834)
 
 The files in here support the material in Chapter 7: Unity3D source files and assets for creating a panoramic photo viewer. 
 
